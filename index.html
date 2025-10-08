@@ -3,30 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>Haiku Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Haiku Generator</h1>
-    </header>
-    <main>
-      <form action="">
-        <input type="text" placeholder="Enter a topic" autofocus required />
-        <input type="submit" />
-      </form>
-      <div>poem goes here</div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>Haiku Generator</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter a topic"
+            autofocus
+            required
+            autocomplete="off"
+            class="input"
+          />
+          <input type="submit" class="submit" />
+        </form>
+        <div class="poem">poem goes here</div>
+      </main>
 
-    <footer>
-      This project is coded by CKN on
-      <a href="https://github.com/ckn444/Haiku_Generator" target="_blank"
-        >GitHub</a
-      >and is hosted on
-      <a href="https://haikugeneratorckn.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This project is coded by CKN on
+        <a href="https://github.com/ckn444/Haiku_Generator" target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://haikugeneratorckn.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
