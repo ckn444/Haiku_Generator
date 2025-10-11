@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Haiku Generator</title>
   </head>
   <body>
@@ -18,7 +19,7 @@
         <h1>Haiku Generator</h1>
       </header>
       <main>
-        <form action="">
+        <form id="poem-form">
           <input
             type="text"
             placeholder="Enter a topic"
@@ -29,7 +30,7 @@
           />
           <input type="submit" class="submit" />
         </form>
-        <div class="poem">poem goes here</div>
+        <div class="poem" id="poem">poem goes here</div>
       </main>
 
       <footer>
