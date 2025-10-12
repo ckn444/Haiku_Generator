@@ -12,33 +12,38 @@
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <title>Haiku Generator</title>
+    <title>English-Language Haiku (ELH) Generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>Haiku Generator</h1>
+        <h1>English-Language Haiku (ELH) Generator</h1>
+        <p>Traditional ELH retains many characteristics of its Japanese predecessor while applying the natural rhythms and structures of English - without strictly adering to syllabic counts - despite common assumption to the contrary.</p>
+        <p><a href="https://en.wikipedia.org/wiki/Haiku_in_English">Learn more </a></p>
       </header>
       <main>
-        <form id="poem-form">
-          <input
-            type="text"
-            placeholder="Enter a topic"
-            autofocus
-            required
-            autocomplete="off"
-            class="input"
-            id="input"
-          />
-          <input type="submit" class="submit" />
-        </form>
-        <div class="poem" id="poem">poem goes here</div>
+        <div class="form-container">
+          <form id="poem-form">
+            <input
+              type="text"
+              placeholder="Enter a subject"
+              autofocus
+              required
+              autocomplete="off"
+              class="input"
+              id="input"
+            />
+            <input type="submit" class="submit" />
+          </form>
+          <div class="hint">ie: flower, toasted cheese sandwich, the ocean</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
         This project is coded by CKN on
         <a href="https://github.com/ckn444/Haiku_Generator" target="_blank"
-          >GitHub</a
+          >GitHub</ae
         >
         and is hosted on
         <a href="https://haikugeneratorckn.netlify.app/" target="_blank"
