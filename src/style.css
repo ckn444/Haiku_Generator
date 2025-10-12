@@ -2,8 +2,13 @@ body {
   background-color: #bad8b6;
   font-family: "Inria Sans", sans-serif;
 }
+
+p {
+  color: #5c715e;
+}
 a {
   color: #01352c;
+  font-size: 13px;
 }
 
 .container {
@@ -51,7 +56,7 @@ form {
   line-height: 1.5;
   font-size: 12px;
   margin-top: 5px;
-  color: #61b390;
+  color: #5c715e;
 }
 
 header {
@@ -84,7 +89,7 @@ footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
-  color: #757a79;
+  color: #5c715e;
 }
 
 .generating {
